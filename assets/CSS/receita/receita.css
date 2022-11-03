@@ -1,0 +1,8 @@
+.receita{
+    background-color: var(--branco);
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}

@@ -1,0 +1,13 @@
+.quem-somos__nome{
+    color: var(--vermelho);
+    font-family: var(--fonte-cursiva);
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .quem-somos__nome{
+        font-size: 1.8rem;
+    }   
+}

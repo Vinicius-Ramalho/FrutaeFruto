@@ -1,0 +1,18 @@
+.quem-somos__colaboradores{
+    padding: 4rem 0;
+}
+
+@media screen and (min-width: 992px) {
+    .quem-somos__colaboradores{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .quem-somos__colaboradores{
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,45 @@
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 52px;
+}
+
+.cabecalho__botao-menu{
+    justify-self: flex-start;
+    position: absolute;
+    left: 1rem;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    color: var(--vermelho);
+}
+
+.cabecalho__logo{
+    justify-self: center;
+    height: 3rem;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        height: 72px;
+    }
+
+    .cabecalho__logo{
+        height: 5rem;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .cabecalho__botao-menu{
+        display: none;
+    }
+
+    .cabecalho{
+        justify-content: space-around;
+    }
+}

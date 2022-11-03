@@ -1,0 +1,21 @@
+.quem-somos__imagem{
+    width: 261px;
+    height: 261px;
+    border-radius: 50%;
+    border: 1px solid var(--vermelho)
+}
+
+.roberta{
+    background-image: url("../../IMG/pessoas/roberta.jpg");
+    background-position: center;
+}
+
+.marcela{
+    background-image: url("../../IMG/pessoas/marcela.jpg");
+    background-position: center;
+}
+
+.andreia{
+    background-image: url("../../IMG/pessoas/andreia.jpg");
+    background-position: center;
+}

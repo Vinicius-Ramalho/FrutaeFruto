@@ -1,0 +1,53 @@
+@import url(../CSS/cabecalho/cabecalho.css);
+@import url(../CSS/menu-lateral/menu-lateral.css);
+@import url(../CSS/cabecalho/cabecalho-menu.css);
+
+@import url(../CSS/banner/banner.css);
+@import url(../CSS/banner/banner-titulo.css);
+
+@import url(../CSS/receitas/receitas.css);
+@import url(../CSS/receitas/receitas-cabecalho.css);
+@import url(../CSS/receitas/receitas-conteudo.css);
+
+@import url(../CSS/receita/receita.css);
+@import url(../CSS/receita/receita-caixa.css);
+@import url(../CSS/receita/receita-imagem.css);
+@import url(../CSS/receita/receita-titulo.css);
+@import url(../CSS/receita/receita-descricao.css);
+@import url(../CSS/receita/receita-botao.css);
+
+@import url(../CSS/quem-somos/quem-somos.css);
+@import url(../CSS/quem-somos/quem-somos__titulo.css);
+@import url(../CSS/quem-somos/quem-somos__descricao.css);
+@import url(../CSS/quem-somos/quem-somos__colaboradores.css);
+@import url(../CSS/quem-somos/quem-somos__perfil.css);
+@import url(../CSS/quem-somos/quem-somos__imagem.css);
+@import url(../CSS/quem-somos/quem-somos__nome.css);
+@import url(../CSS/quem-somos/quem-somos__funcao.css);
+
+@import url(../CSS/rodape/rodape.css);
+
+
+:root{
+    --branco: #FDFDFD;
+    --cinza: #8C8888;
+    --cinza-claro: #C4C4C4;
+    --cinza-receitas: #E5E5E5;
+    --preto: #000;
+    --vermelho: #8D0606;
+
+    --fonte-cursiva: 'Pacifico', cursive;
+    --fonte-padrao:  'Roboto', sans-serif;
+
+    --peso-subtitulo: 300;
+}
+
+body{
+    font: 16px var(--fonte-padrao);
+    background-color: var(--branco);
+}
+
+.container{
+    padding: 1rem;
+}
+

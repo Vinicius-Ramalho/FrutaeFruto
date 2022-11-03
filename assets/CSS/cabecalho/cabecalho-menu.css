@@ -1,0 +1,19 @@
+.cabecalho__menu{
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .cabecalho__menu{
+        display: block;
+    }
+
+    .cabecalho__lista{
+        display: flex;
+    }
+    
+    .cabecalho__link{
+        padding: 0 1rem;
+        text-decoration: none;
+        color: var(--cinza);
+    }
+}
